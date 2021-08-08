@@ -36,8 +36,13 @@ nav {
 }
 #main {
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  overflow: hidden;
+  /* padding-top: 10vh; */
+}
+.name:hover {
+  color: red;
 }
 
 .avatar {
@@ -52,10 +57,13 @@ nav {
   width: 30%;
   text-align: center;
   transition: transform ease 0.2s;
+  opacity: 0.8;
+  margin-top: 8vh;
 }
 
 .profile_cont:hover {
   transform: scale(1.2);
+  opacity: 1;
 }
 
 .footer {
